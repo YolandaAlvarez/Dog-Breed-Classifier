@@ -4,7 +4,7 @@ In this project, given an image of a dog, the algorithm will identify an estimat
 
 ![Example](./images/example.jpg)
 
-In this project we can explore the state-of-the-art CNN models for classification and localization.
+In this project, we can explore the state-of-the-art CNN models for classification and localization.
 
 
 # Project Instructions
@@ -17,4 +17,11 @@ In this project we can explore the state-of-the-art CNN models for classificatio
 
 4. Download the [human dataset](http://vis-www.cs.umass.edu/lfw/lfw.tgz). Unzip the folder and place it in the repo, at location path/to/dog-project/lfw. If you are using a Windows machine, you are encouraged to use 7zip to extract the folder.
 
-5. 
+5. Make sure you have already installed the necessary Python packages according to the `requirements.txt` in the repository.
+
+6. Open a terminal window and navigate to the project folder. Open the notebook using:
+```
+	jupyter notebook dog_app.ipynb
+```
+
+**NOTE:** If the code is taking too long to run, you will need to either reduce the complexity of thhe CNN architecture or switch to running the code on a GPU. 
